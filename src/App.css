@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
 }
