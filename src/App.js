@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import './App.css';
-import CountApp from './components/CountApp.jsx';
-import Navbar from "./components/Navbar.jsx"
+import { useState } from "react";
+import "./App.css";
+import CountApp from "./components/CountApp.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
-  const [language, setLanguage] = useState("en"); 
+  const [language, setLanguage] = useState("en");
   return (
     <div className="App">
       <Navbar language={language} setLanguage={setLanguage} />

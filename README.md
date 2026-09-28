@@ -1,13 +1,47 @@
 # Create The Project:
 
 ` npx create-react-app . `
+> the (.) means --> react folders and files will installed inside the folder in it.
 
 ## The Packages That Used:
 
 ` npm install @mui/material @mui/system @mui/utils @emotion/react @emotion/styled `
 ` npm install @mui/joy @emotion/react @emotion/styled `
 
+## VSCode Shortcut: 
+
+1. To format a document:
+    - ` Windows: Shift + Alt + F `
+    - ` Mac: Shift + Option + F (or ^ + ⌥ + B) ` 
+    - or right click in mouse --> Format Document
+
+2. To copy, paste the line:   
+    - ` mac: cmd + C , cmd + V `
+    - ` win: ctrl + C , ctrl + V `
+
+3. To undo:   
+    - ` mac: cmd + Z `   
+    - ` win: ctrl + Z ` 
+
+4. To select more then one line (and edit it or write on it):   
+    - ` mac: cmd + right click ` 
+    - ` win: ctrl + right click ` 
+
+5. To comment line: 
+    - ` mac: cmd + / `  
+    - ` win: ctrl + / `  
+
+   
 ## Explain The Functions That Used in The Project: 
+
+### using:
+
+***useState*** is a React Hook that lets you add a state variable to your component.
+
+` const [state, setState] = useState(initialState) `
+
+>>> State: A Component's Memory
+Components often need to change what’s on the screen as a result of an interaction. Typing into the form should update the input field, clicking “next” on an image carousel should change which image is displayed, clicking “buy” should put a product in the shopping cart. Components need to “remember” things: the current input value, the current image, the shopping cart. In React, this kind of component-specific memory is called state.
 
 ### In CountApp.jsx file:
 
