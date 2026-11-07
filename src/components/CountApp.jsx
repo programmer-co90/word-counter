@@ -203,6 +203,7 @@ const CountApp = ({ language }) => {
           textAlign: "center",
         }}
       >
+      
         <Card sx={{ border: "2px solid #A1BBCB", borderRadius: "10px" }}>
           <CardActionArea
             sx={{
